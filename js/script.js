@@ -13,19 +13,7 @@ $(document).ready(function(){
 	$("#game-content").hide();
 	$("#read-content").hide();
 	$("#music-content").hide();
-
-	
-	
-	
-
-	
-
-	
-
-	
-
-	
-
+	$("#uni-content").hide();
 
 });
 
@@ -58,5 +46,10 @@ function amelContent(){
 
 function puroContent(){
 	$("#puro-content").fadeToggle(400, "linear");
+
+}
+
+function uniContent(){
+	$("#uni-content").fadeToggle(400, "linear");
 
 }
